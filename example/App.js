@@ -1,7 +1,7 @@
 import React from "react";
-import { StyleSheet, View } from "react-native";
-import Text from "./lib/src/CustomText";
+import { StyleSheet } from "react-native";
 import { LinearGradient } from "expo";
+import Text from "@freakycoder/react-native-custom-text";
 
 export default class App extends React.Component {
   render() {

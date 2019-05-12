@@ -2,8 +2,8 @@
 
 Custom Text with cool heading & font family interaction for React Native.
 
-[![npm version](https://img.shields.io/npm/v/react-native-custom-text.svg)](https://www.npmjs.com/package/react-native-custom-text)
-[![npm](https://img.shields.io/npm/dt/react-native-custom-text.svg)](https://www.npmjs.com/package/react-native-custom-text)
+[![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-custom-text.svg)](https://www.npmjs.com/package/@freakycoder/react-native-custom-text)
+[![npm](https://img.shields.io/npm/dt/@freakycoder/react-native-custom-text.svg)](https://www.npmjs.com/package/@freakycoder/react-native-custom-text)
 ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg)
 ![expo-compatible](https://img.shields.io/badge/Expo-compatible-9cf.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -11,17 +11,14 @@ Custom Text with cool heading & font family interaction for React Native.
 
 <p align="center">
   <img alt="React Native Custom Text" src="https://github.com/WrathChaos/react-native-custom-text/blob/master/assets/Screenshots/example.png" width="49.7%" />
-  <img alt="React Native Custom Text" src="https://github.com/WrathChaos/react-native-custom-text/blob/master/assets/Screenshots/example1.png" width="49.7%" />
 </p>
 
 ## Installation
 
 Add the dependency:
 
-### React Native:
-
 ```ruby
-npm i react-native-custom-text
+npm i @freakycoder/react-native-custom-text
 ```
 
 ## Peer Dependencies
@@ -35,45 +32,43 @@ npm i react-native-custom-text
 
 ## Basic Usage
 
-```ruby
-import { GradientHeader } from "react-native-custom-text";
+```js
+import Text from "@freakycoder/react-native-custom-text";
 
-<GradientHeader />
+<Text h1 fontFamily="AvenirNext">Hello Heading 1</Text>
 ```
 
 ## Advanced Usage
-```ruby
-import { GradientHeader } from "react-native-custom-text";
+```js
+import Text from "@freakycoder/react-native-custom-text";
 
-<GradientHeader
-  title="Title"
-  subtitle="Have a nice day Kuray"
-  gradientColors={["#00416A", "#E4E5E6"]}
-  imageSource={require("./assets/profile.jpg")}
-/>
+<Text h3 bold right color="#913400" numberOfLines={1} style={{ margin: 16}}>
+    Heading 3 Bold Right Sided Custom Text
+</Text>
 ```
 
 ## Configuration - Props
 
-| Property               |   Type    |              Default              | Description                                                                |
-| ---------------------- | :-------: | :-------------------------------: | -------------------------------------------------------------------------- |
-| title                  |  string   |               Today               | change the title                                                           |
-| subtitle               |  string   |          Have a nice day          | change the subtitle                                                        |
-| gradient               |  boolean  |               true                | if you do not want gradient background, simply make this prop false        |
-| gradientColors         | [colors]  | ["#12c2e9", "#c471ed", "#f64f59"] | change the gradient colors                                                 |
-| start                  |    x,y    |          { x: 0, y: 0 }           | change the gradient's direction of start                                   |
-| end                    |    x,y    |          { x: 1, y: 0 }           | change the gradient's direction of end                                     |
-| shapeColor             |   color   |              #ba75df              | change solid background color, it is available when gradient prop is false |
-| imageSource            |   image   |           profile image           | change the circle image                                                    |
-| imageOnPress           | function  |               null                | set the onPress function for profile image                                 |
-| position               |   style   |                top                | set the background shape's position                                        |
-| headerContentComponent | component |          chech the code           | set your own design for the header content                                 |
+| Property   |    Type    | Default | Description                                                      |
+| ---------- | :--------: | :-----: | ---------------------------------------------------------------- |
+| h1         |  boolean   |  false  | heading 1 prop                                                   |
+| h2         |  boolean   |  false  | heading 2 prop                                                   |
+| h3         |  boolean   |  false  | heading 3 prop                                                   |
+| h4         |  boolean   |  false  | heading 4 prop                                                   |
+| h5         |  boolean   |  false  | heading 5 prop                                                   |
+| h6         |  boolean   |  false  | heading 7 prop                                                   |
+| left       |  boolean   |  false  | make the text left sided                                         |
+| center     |  boolean   |  false  | make the text centered                                           |
+| right      |  boolean   |  false  | make the text right sided                                        |
+| bold       |  boolean   |  false  | make the text style bold  (Compatible with Font Family)          |
+| color      |   color    | "#fff"  | change the text's color                                          |
+| fontFamily | FontFamily | default | set your own FontFamily directly to the Text component as a prop |
 
+Any Text props are available like 'numberOfLines' or any other. There is no restriction. 
 
 ### ToDos
 
 - [x] LICENSE
-- [ ] Expo Support (Coming Soon)
 - [ ] Write an article about the lib on Medium
 
 
