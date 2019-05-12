@@ -1,0 +1,33 @@
+{
+  "name": "react-native-custom-text",
+  "version": "0.0.1",
+  "description": "Custom Text with cool heading & font family interaction for React Native.",
+  "keywords": [
+    "text",
+    "custom",
+    "font-family",
+    "fontFamily",
+    "heading",
+    "view",
+    "custom-text",
+    "FreakyCoder",
+    "freakycoder",
+    "kuray",
+    "Kuray",
+    "react",
+    "react-native",
+    "javascript",
+    "ui-lib",
+    "rn"
+  ],
+  "homepage": "https://www.freakycoder.com",
+  "bugs": "https://github.com/WrathChaos/react-native-custom-text/issues",
+  "main": "./lib/src/CustomFontText.js",
+  "repository": "git@github.com:WrathChaos/react-native-custom-text.git",
+  "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">= 16.x.x",
+    "react-native": ">= 0.55.x"
+  }
+}
