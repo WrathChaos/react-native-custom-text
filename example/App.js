@@ -6,7 +6,7 @@ import Text from "@freakycoder/react-native-custom-text";
 export default class App extends React.Component {
   render() {
     return (
-      <LinearGradient colors={["#B3FFAB", "#12FFF7"]} style={styles.container}>
+      <LinearGradient colors={["#ffdde1", "#ee9ca7"]} style={styles.container}>
         <Text h1 bold center numberOfLines={1}>
           Heading 1
         </Text>
