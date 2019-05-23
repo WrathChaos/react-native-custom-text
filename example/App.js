@@ -2,6 +2,7 @@ import React from "react";
 import { StyleSheet } from "react-native";
 import { LinearGradient } from "expo";
 import Text from "@freakycoder/react-native-custom-text";
+import TextWrapper from "./src/TextWrapper";
 
 export default class App extends React.Component {
   render() {

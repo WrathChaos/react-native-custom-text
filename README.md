@@ -47,6 +47,56 @@ import Text from "@freakycoder/react-native-custom-text";
 </Text>
 ```
 
+## Custom Advanced Usage (Wrapper)
+If you'are going to use Custom Text rather than Text component on your WHOLE project. I suggest that write a TextWrapper functional component and you can set and use it like original Text component
+
+```js
+import React from "react";
+import PropTypes from "prop-types";
+import Text from "@freakycoder/react-native-custom-text";
+
+const TextWrapper = props => {
+  const { numberOfLines, fontFamily, children, ...rest } = props;
+  return (
+    <Text fontFamily={fontFamily} numberOfLines={numberOfLines} {...rest}>
+      {children}
+    </Text>
+  );
+};
+
+TextWrapper.propTypes = {
+  fontFamily: PropTypes.string,
+  numberOfLines: PropTypes.number
+};
+
+TextWrapper.defaultProps = {
+  numberOfLines: 1,
+  fontFamily: "Your Custom Font"
+};
+
+export default TextWrapper;
+```
+
+
+#### Usage of it:
+
+Here is the example of how to use it, also you can check the example folder.
+
+```js
+// Important! Path will be change depends on your project structure tree
+import Text from '../../shared/components/text/TextWrapper'; 
+
+
+<Text
+  h1
+  color="#513843"
+  numberOfLines={2}
+  fontFamily="Grotesk"
+>
+  Example Text for TextWrapper
+</Text>
+```
+
 ## Configuration - Props
 
 | Property   |    Type    | Default | Description                                                      |
