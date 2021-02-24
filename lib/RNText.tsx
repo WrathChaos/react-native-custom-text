@@ -13,7 +13,7 @@ import styles, { _setColor, _setFontFamily } from "./RNText.style";
 
 type CustomTextStyleProp = StyleProp<TextStyle> | Array<StyleProp<TextStyle>>;
 
-interface IRNTextProps extends TextProps {
+export interface IRNTextProps extends TextProps {
   h1?: boolean;
   h2?: boolean;
   h3?: boolean;

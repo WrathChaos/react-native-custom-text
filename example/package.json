@@ -8,7 +8,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@freakycoder/react-native-custom-text": "^0.1.1",
+    "@freakycoder/react-native-custom-text": "^0.1.2",
     "expo": "~40.0.0",
     "expo-linear-gradient": "~8.4.0",
     "expo-status-bar": "~1.0.3",
