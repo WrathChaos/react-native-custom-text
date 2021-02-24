@@ -1,5 +1,11 @@
-import React from "react";
-import { StyleSheet, Text, StyleProp, TextStyle } from "react-native";
+import * as React from "react";
+import {
+  StyleSheet,
+  Text,
+  TextProps,
+  StyleProp,
+  TextStyle,
+} from "react-native";
 /**
  * ? Local Imports
  */
@@ -7,7 +13,7 @@ import styles, { _setColor, _setFontFamily } from "./RNText.style";
 
 type CustomTextStyleProp = StyleProp<TextStyle> | Array<StyleProp<TextStyle>>;
 
-interface IRNTextProps {
+interface IRNTextProps extends TextProps {
   h1?: boolean;
   h2?: boolean;
   h3?: boolean;

@@ -55,5 +55,8 @@
       "npx prettier --write",
       "eslint src/*.js --fix-dry-run"
     ]
+  },
+  "dependencies": {
+    "tslib": "^1.14.1"
   }
 }
