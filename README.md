@@ -27,7 +27,7 @@ npm i @freakycoder/react-native-custom-text
 
 ## Basic Usage
 
-```js
+```jsx
 import Text from "@freakycoder/react-native-custom-text";
 
 <Text h1 fontFamily="AvenirNext">
@@ -37,7 +37,7 @@ import Text from "@freakycoder/react-native-custom-text";
 
 ## Advanced Usage
 
-```js
+```jsx
 import Text from "@freakycoder/react-native-custom-text";
 
 <Text h3 bold right color="#913400" numberOfLines={1} style={{ margin: 16 }}>
@@ -79,7 +79,7 @@ export default TextWrapper;
 
 Here is the example of how to use it, also you can check the example folder.
 
-```js
+```jsx
 // Important! Path will be change depends on your project structure tree
 import Text from "../../shared/components/text/TextWrapper";
 
@@ -107,7 +107,7 @@ import Text from "../../shared/components/text/TextWrapper";
 
 Any Text props are available like 'numberOfLines' or any other. There is no restriction.
 
-### ToDos
+### Roadmap
 
 - [x] ~~LICENSE~~
 - [x] ~~Typescript~~
