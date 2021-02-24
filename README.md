@@ -2,12 +2,12 @@
 
 Custom Text with cool heading & font family interaction for React Native.
 
-[![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-custom-text.svg)](https://www.npmjs.com/package/@freakycoder/react-native-custom-text)
-[![npm](https://img.shields.io/npm/dt/@freakycoder/react-native-custom-text.svg)](https://www.npmjs.com/package/@freakycoder/react-native-custom-text)
-![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg)
-![expo-compatible](https://img.shields.io/badge/Expo-compatible-9cf.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-custom-text.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-custom-text)
+[![npm](https://img.shields.io/npm/dt/@freakycoder/react-native-custom-text.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-custom-text)
+![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg?style=for-the-badge)
+![expo-compatible](https://img.shields.io/badge/Expo-compatible-9cf.svg?style=for-the-badge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 
 <p align="center">
   <img alt="React Native Custom Text" src="assets/Screenshots/example.png" width="49.7%" />
