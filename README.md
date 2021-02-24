@@ -1,6 +1,6 @@
 <img alt="React Native Custom Text" src="assets/logo.png" width="1050"/>
 
-Custom Text with cool heading & font family interaction for React Native.
+[![Custom Text with cool heading & font family interaction for React Native](https://img.shields.io/badge/-Custom%20Text%20with%20cool%20heading%20%26%20font%20family%20interaction%20for%20React%20Native-orange?style=for-the-badge)](https://github.com/WrathChaos/react-native-typescript-boilerplate)
 
 [![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-custom-text.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-custom-text)
 [![npm](https://img.shields.io/npm/dt/@freakycoder/react-native-custom-text.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-custom-text)
