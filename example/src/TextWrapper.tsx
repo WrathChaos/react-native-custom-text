@@ -1,7 +1,8 @@
 import React from "react";
+import { TextProps } from "react-native";
 import Text from "@freakycoder/react-native-custom-text";
 
-interface ITextWrapperProps {
+interface ITextWrapperProps extends TextProps {
   color?: string;
   fontFamily?: string;
   children?: React.ReactNode;

@@ -51,9 +51,10 @@ If you'are going to use Custom Text rather than Text component on your WHOLE pro
 
 ```jsx
 import React from "react";
+import { TextProps } from "react-native";
 import Text from "@freakycoder/react-native-custom-text";
 
-interface ITextWrapperProps {
+interface ITextWrapperProps extends TextProps {
   color?: string;
   fontFamily?: string;
   children?: React.ReactNode;
