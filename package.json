@@ -34,7 +34,7 @@
     "postversion": "git push && git push --tags"
   },
   "devDependencies": {
-    "@react-native-community/eslint-config": "^2.0.0",
+    "@react-native-community/eslint-config": "^3.0.0",
     "@types/react": "^17.0.2",
     "@types/react-native": "^0.64.0",
     "eslint": "^7.11.0",
